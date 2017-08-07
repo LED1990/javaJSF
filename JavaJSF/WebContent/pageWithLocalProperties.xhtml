@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:c="http://java.sun.com/jsf/core">
+
+<h:head></h:head>
+<h:body>
+	<h3>THIS PAGE USES LOCAL RESOURCES</h3>
+	<f:loadBundle var="res" basename="com.myresources.localres" />
+
+	<h:outputLabel value="#{res.name}"></h:outputLabel>
+	<br />
+
+	<h:outputLabel value="#{res.Id}"></h:outputLabel>
+	<br />
+
+	<h:outputLabel value="#{res.color}"></h:outputLabel>
+	<br />
+
+	<h:outputLabel value="#{res.model}"></h:outputLabel>
+	<br />
+
+	<h:outputLabel value="#{res.regno}"></h:outputLabel>
+</h:body>
+</html>
